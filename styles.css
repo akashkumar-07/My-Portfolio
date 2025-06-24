@@ -1,0 +1,1195 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 3.75rem; /* 60px converted to rem */
+  background-color: rgb(65, 105, 225);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#texture-one {
+  margin-top: 0.75rem; /* 12px converted to rem */
+  margin-left: 2.5rem; /* 40px converted to rem */
+  float: left;
+  font-size: 1.875rem; /* 30px converted to rem */
+  color: white;
+}
+
+#header nav ul {
+  list-style: none;
+  padding: 0.9375rem; /* 15px converted to rem */
+  margin: 0.625rem; /* 10px converted to rem */
+  float: right;
+}
+
+#header nav ul li {
+  display: inline;
+  margin: 1.25rem; /* 20px converted to rem */
+}
+
+#header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Background Banner Section */
+#background-banner {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 228, 196);
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  width: 60%;
+  height: 60vh;
+  padding-top: 5rem; /* 80px converted to rem */
+  padding-left: 5rem; /* 80px converted to rem */
+  color: rgb(51, 51, 51);
+}
+
+.text h1 {
+  font-size: 3.125rem; /* 50px converted to rem */
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.text p {
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-family: Arial, sans-serif;
+  line-height: 2.1875rem; /* 35px converted to rem */
+}
+
+.icon-img {
+  width: 100%;
+  height: 9.375rem; /* 150px converted to rem */
+  display: inline;
+}
+
+.icon-img img {
+  width: 3.125rem; /* 50px converted to rem */
+  height: 3.125rem; /* 50px converted to rem */
+  margin-right: 1.25rem; /* 20px converted to rem */
+}
+
+.btn button {
+  width: 11.25rem; /* 180px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  font-size: 1.25rem; /* 20px converted to rem */
+  margin-right: 1.25rem; /* 20px converted to rem */
+  background: linear-gradient(90deg, rgb(30, 144, 255) 0%, rgb(0, 191, 255) 100%);
+  color: white;
+  border-radius: 0.625rem; /* 10px converted to rem */
+  box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
+}
+
+.btn button:hover {
+  width: 10.625rem; /* 170px converted to rem */
+  height: 2.1875rem; /* 35px converted to rem */
+  transition-duration: 0.6s;
+  font-size: 1.25rem; /* 20px converted to rem */
+  font-size: 1.0625rem; /* 17px converted to rem */
+  background: linear-gradient(90deg, rgb(30, 144, 255) 0%, rgb(0, 191, 255) 100%);
+  color: white;
+  border-radius: 0.4375rem; /* 7px converted to rem */
+  box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
+}
+
+.btn button:active {
+  width: 11.25rem; /* 180px converted to rem */
+  height: 2.5rem; /* 40px converted to rem */
+  font-size: 1.25rem; /* 20px converted to rem */
+  margin-right: 1.25rem; /* 20px converted to rem */
+  background: linear-gradient(90deg, rgb(0, 191, 255) 0%, rgb(30, 144, 255) 100%);
+  color: white;
+  border-radius: 0.625rem; /* 10px converted to rem */
+  box-shadow: 0.125rem 0.125rem 0.1875rem rgba(0, 0, 255, 0.5);
+  transition-duration: 0.5s;
+}
+
+.btn button a {
+  text-decoration: none;
+  color: white;
+}
+
+.img {
+  width: 40%;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+}
+
+/* About Page Section */
+.about-page {
+  width: 100%;
+  height: 37.5rem; /* 600px converted to rem */
+  background-color: rgb(255, 239, 219);
+}
+
+.text-explore {
+  width: 50%;
+  height: 50%;
+  padding: 1.25rem; /* 20px converted to rem */
+  float: right;
+  padding-left: 5rem;
+}
+
+.text-explore > h1 {
+  font-size: 2rem; /* 40px converted to rem */
+  color: rgb(51, 51, 51);
+  
+}
+
+.text-explore > p {
+  font-size: 1.25rem; /* 20px converted to rem */
+  color: rgb(51, 51, 51);
+ 
+}
+
+.about-page .img2 {
+  float: left;
+  width: 20%;
+  height: 24.375rem; /* 390px converted to rem */
+  
+}
+
+.about-page img {
+  float: left;
+  width: 43.75rem; /* 700px converted to rem */
+  height: 37.5rem; /* 600px converted to rem */
+}
+
+.text-explore > img {
+  width: 6.25rem; /* 100px converted to rem */
+  height: 6.25rem; /* 100px converted to rem */
+}
+
+.ol-type {
+  width: 100%;
+  height: 25rem; /* 400px converted to rem */
+  content: " ";
+  font: 1.25rem; /* 20px converted to rem */
+}
+
+.ol-type ol>li {
+  font-size: 1.125rem; /* 18px converted to rem */
+  margin-left: 1.25rem; /* 20px converted to rem */
+}
+
+/* Proficiency Section */
+#proficiency {
+  width: 100%;
+  height: 37.5rem; /* 600px converted to rem */
+  background-color: rgb(255, 239, 219);
+  margin-top: 5rem; /* 80px converted to rem */
+}
+
+#proficiency img {
+  float: right;
+  width: 50%;
+  height: 10rem; /* 160px converted to rem */
+}
+
+#proficiency h1 {
+  font-size: 2.5rem; /* 40px converted to rem */
+  text-align: center;
+  color: rgb(51, 51, 51);
+  text-decoration: underline;
+}
+
+#proficiency fieldset {
+  width: 47%;
+  height: 25rem; /* 400px converted to rem */
+  margin-left: 1.25rem; /* 20px converted to rem */
+}
+
+#proficiency fieldset legend {
+  font-size: 1.875rem; /* 30px converted to rem */
+  color: solid RED;
+  padding-left: 2.5rem; /* 40px converted to rem */
+  text-align: center;
+}
+
+#proficiency label {
+  font-size: 1.25rem; /* 20px converted to rem */
+}
+
+#proficiency input[type=range] {
+  width: 60%;
+  margin: 1.25rem; /* 20px converted to rem */
+  padding-left: 1.25rem; /* 20px converted to rem */
+  text-align: start;
+}
+
+/* Open Source Projects Section */
+#flex-container {
+  width: 100%;
+  padding: 1.25rem; /* 20px converted to rem */
+  margin-top: 1.25rem; /* 20px converted to rem */
+}
+
+#flex-container>span {
+  font-size: 1.875rem; /* 30px converted to rem */
+  margin-top: 1.25rem; /* 20px converted to rem */
+  margin-left: 1.25rem; /* 20px converted to rem */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline red;
+}
+
+.projects {
+  width: 100%;
+  padding: 1.25rem; /* 20px converted to rem */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 45%;
+  margin: 0.625rem; /* 10px converted to rem */
+  padding: 1.25rem; /* 20px converted to rem */
+  font-size: 1.125rem; /* 18px converted to rem */
+  background: #fffaf0;
+  box-shadow: inset -0.125rem -0.125rem 0.3125rem black, inset 0.125rem 0.125rem 0.3125rem wheat;
+  border-radius: 0.625rem; /* 10px converted to rem */
+  overflow: hidden;
+}
+
+.flex-item:hover {
+  width: 46%;
+  margin: 0.4375rem; /* 7px converted to rem */
+  font-size: 1.25rem; /* 20px converted to rem */
+  transition: 0.46s;
+  background: #fffaf0;
+  box-shadow: 0.125rem 0.125rem 0.3125rem black, 0.125rem 0.125rem 0.3125rem wheat;
+  border-radius: 0.625rem; /* 10px converted to rem */
+}
+
+#spanish {
+  font-size: 1.5rem; /* 24px converted to rem */
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  text-decoration: underline black;
+}
+
+.flex-item h1 {
+  font-size: 1.25rem; /* 20px converted to rem */
+  color: rgb(51, 51, 51);
+}
+
+.flex-item p {
+  font-size: 0.9375rem; /* 15px converted to rem */
+  text-align: start;
+  color: rgb(51, 51, 51);
+}
+
+#emogi {
+  font-size: 1rem; /* 16px converted to rem */
+  color: red;
+}
+
+#rating {
+  float: right;
+  font-size: 0.875rem; /* 14px converted to rem */
+  margin-right: 1.25rem; /* 20px converted to rem */
+}
+
+/* Achievements Section */
+#achievements {
+  width: 100%;
+  height: 37.5rem; /* 600px converted to rem */
+  margin-top: 6.25rem; /* 100px converted to rem */
+  padding: 5rem; /* 80px converted to rem */
+}
+
+#achievements h1 {
+  font-size: 2.5rem; /* 40px converted to rem */
+  text-decoration: underline;
+  color: rgb(51, 51, 51);
+}
+
+#achievements p {
+  padding-top: 2.5rem; /* 40px converted to rem */
+  font-size: 1.25rem; /* 20px converted to rem */
+  color: rgb(51, 51, 51);
+}
+
+.achive-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 25rem; /* 400px converted to rem */
+  margin-top: 2.5rem; /* 40px converted to rem */
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.achive-container .box1 {
+  width: 30%;
+  height: 24.375rem; /* 390px converted to rem */
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.box1 img {
+  width: 3.75rem; /* 60px converted to rem */
+  height: 15.625rem; /* 250px converted to rem */
+  align-items: center;
+  text-align: center;
+  padding-top: 2.5rem; /* 40px converted to rem */
+  border: 0.125rem solid black;
+  border-radius: 12.5rem; /* 200px converted to rem */
+  box-shadow: 0.3125rem 0.3125rem 0.9375rem rgb(107, 104, 104);
+}
+
+.btn2 {
+  width: 50%;
+  height: 2.5rem; /* 40px converted to rem */
+  font-size: 1.25rem; /* 20px converted to rem */
+  color: white;
+  border-radius: 1.25rem; /* 20px converted to rem */
+  background: linear-gradient(90deg, rgba(233, 4, 187, 0.83) 0%, 45%, rgba(227, 8, 8, 0.899) 100%);
+}
+
+.btn2:hover {
+  width: 48%;
+  height: 2.375rem; /* 38px converted to rem */
+  transition: width 0.3s, height 0.3s;
+  font-size: 1.25rem; /* 20px converted to rem */
+  color: white;
+  border-radius: 1.25rem; /* 20px converted to rem */
+  background: linear-gradient(90deg, rgba(233, 4, 187, 0.83) 0%, 45%, rgba(227, 8, 8, 0.899) 100%);
+}
+
+.btn2:active {
+  width: 50%;
+  height: 2.5rem; /* 40px converted to rem */
+  font-size: 1.25rem; /* 20px converted to rem */
+  color: white;
+  border-radius: 1.25rem; /* 20px converted to rem */
+  background: linear-gradient(90deg, rgba(227, 8, 8, 0.899) 0%, rgba(233, 4, 187, 0.83) 100%);
+  transition-duration: 0.3s;
+  box-shadow: 0.125rem 0.125rem 0.1875rem rgba(255, 0, 255, 0.5);
+}
+
+#prodcast {
+  margin-top: 9.375rem; /* 150px converted to rem */
+  width: 100%;
+  height: 25rem; /* 400px converted to rem */
+  background-color: rgb(255, 255, 255);
+}
+
+#prodcast h1 {
+  font-size: 2.5rem; /* 40px converted to rem */
+  color: rgb(51, 51, 51);
+  margin-bottom: 1.25rem; /* 20px converted to rem */
+  margin-left: 5rem; /* 80px converted to rem */
+}
+
+#prodcast p {
+  font-size: 1.25rem; /* 20px converted to rem */
+  text-align: start;
+  color: rgb(51, 51, 51);
+  margin-bottom: 1.25rem; /* 20px converted to rem */
+  margin-left: 5rem; /* 80px converted to rem */
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 110%;
+  padding: 2.5rem; /* 40px converted to rem */
+  padding-left: 6.25rem; /* 100px converted to rem */
+  background-color: rgb(255, 255, 255);
+}
+
+#prodcast .box2>h1 {
+  font-size: 1rem; /* 27px converted to rem */
+  color: rgb(51, 51, 51);
+}
+
+#prodcast .box2>p {
+  font-size: 1rem; /* 17px converted to rem */
+  color: rgb(51, 51, 51);
+}
+
+.box2 {
+  width: 45%;
+  margin-right: 1.25rem; /* 20px converted to rem */
+  height: 12.5rem; /* 200px converted to rem */
+  background-color: rgb(255, 255, 255);
+  border: 0.125rem solid black;
+  border-radius: 0.625rem; /* 10px converted to rem */
+  box-shadow: 0.3125rem 0.3125rem 0.9375rem grey;
+}
+
+.box2:hover {
+  width: 46%;
+  margin-right: 1.25rem; /* 20px converted to rem */
+  height: 12.8125rem; /* 205px converted to rem */
+  background-color: rgb(255, 255, 255);
+  border: 0.125rem solid rgb(60, 0, 255);
+  border-radius: 0.625rem; /* 10px converted to rem */
+  box-shadow: 0.3125rem 0.3125rem 0.9375rem grey;
+}
+
+/* Contact Section */
+#contact {
+  width: 100%;
+  height: 37.5rem; /* 600px converted to rem */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  text-align: left;
+  margin-top: 9.375rem; /* 150px converted to rem */
+}
+
+.contact-info {
+  width: 60%;
+  height: 37.5rem; /* 600px converted to rem */
+  background-color: rgb(255, 255, 255);
+  padding: 1.25rem; /* 20px converted to rem */
+}
+
+.contact-info h3 {
+  font-size: 2.8125rem; /* 45px converted to rem */
+  margin-top: 1.875rem; /* 30px converted to rem */
+  color: rgb(51, 51, 51);
+}
+
+.contact-info .texture-container {
+  margin-top: 1.25rem; /* 20px converted to rem */
+}
+
+.contact-info p {
+  font-size: 1.0625rem; /* 17px converted to rem */
+  color: rgb(156, 156, 157);
+}
+
+.contact-info h2 {
+  font-size: 1.25rem; /* 20px converted to rem */
+  line-height: 1.5625rem; /* 25px converted to rem */
+  margin-top: 1.25rem; /* 20px converted to rem */
+  color: rgb(49, 47, 47);
+}
+
+.contact-info form h1 {
+  font-size: 1.5625rem; /* 25px converted to rem */
+  color: red;
+}
+
+.contact-info .form-filter {
+  margin-top: 2.5rem; /* 40px converted to rem */
+}
+
+.contact-info .form-filter input[type=text],
+.contact-info .form-filter input[type=email],
+.contact-info .form-filter textarea {
+  padding: 1.25rem; /* 20px converted to rem */
+}
+
+.contact-info .form-filter label,
+.contact-info .form-filter button {
+  margin-bottom: 1.25rem; /* 20px converted to rem */
+}
+
+.contact-info .form-filter button {
+  width: 6.25rem; /* 100px converted to rem */
+}
+
+.contact-info .icon-img {
+  margin-top: 1.25rem; /* 20px converted to rem */
+}
+
+.contact-info .icon-img a:not(:last-child) {
+  margin-right: 0.625rem; /* 10px converted to rem */
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 48rem) {
+  #header nav ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 60rem) {
+  #background-banner {
+    height: auto;
+  }
+
+  .text {
+    padding: 1.875rem; /* 30px converted to rem */
+  }
+
+  .text h1 {
+    font-size: 2.5rem; /* 40px converted to rem */
+  }
+
+  .text p {
+    font-size: 1.125rem; /* 18px converted to rem */
+    line-height: 2rem; /* 32px converted to rem */
+  }
+
+  .icon-img {
+    display: none;
+  }
+
+  .btn button {
+    width: 10rem; /* 160px converted to rem */
+    height: 2.25rem; /* 36px converted to rem */
+    font-size: 1rem; /* 16px converted to rem */
+    margin-right: 1rem; /* 16px converted to rem */
+  }
+
+  .btn button:hover {
+    width: 10rem; /* 160px converted to rem */
+    height: 2.25rem; /* 36px converted to rem */
+    font-size: 1rem; /* 16px converted to rem */
+  }
+
+  .btn button:active {
+    width: 10rem; /* 160px converted to rem */
+    height: 2.25rem; /* 36px converted to rem */
+    font-size: 1rem; /* 16px converted to rem */
+  }
+
+  .img img {
+    width: 80%;
+    height: auto;
+  }
+
+  .about-page .text-explore {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem; /* 30px converted to rem */
+  }
+
+  .about-page .img2 {
+    width: 50%;
+    height: 1rem;
+  }
+
+  .about-page img {
+    width: 80%;
+    height: auto;
+  }
+
+  .text-explore > img {
+    width: 3.75rem; /* 60px converted to rem */
+    height: 3.75rem; /* 60px converted to rem */
+  }
+
+  .ol-type {
+    height: auto;
+  }
+
+  .achive-container .box1 img {
+    width: 3.125rem; /* 50px converted to rem */
+    height: 12.5rem; /* 200px converted to rem */
+  }
+
+  .achive-container .box1 {
+    width: 30%;
+  }
+
+  .flex-item {
+    width: 100%;
+    margin: 0.625rem; /* 10px converted to rem */
+  }
+
+  .flex-item:hover {
+    width: 100%;
+    margin: 0.625rem; /* 10px converted to rem */
+  }
+
+  #spanish {
+    font-size: 1.25rem; /* 20px converted to rem */
+  }
+
+  #flex-container>span {
+    font-size: 1.5rem; /* 24px converted to rem */
+    margin-left: 0;
+  }
+
+  .box2 {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .box2:hover {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem; /* 30px converted to rem */
+  }
+}
+@media only screen and (max-width: 37.5rem) {
+  #header {
+    height: 3.75rem; /* 60px converted to rem */
+  }
+
+  #texture-one {
+    margin-top: 0.75rem; /* 12px converted to rem */
+    margin-left: 2.5rem; /* 40px converted to rem */
+    font-size: 1.875rem; /* 30px converted to rem */
+  }
+
+  #header nav ul {
+    padding: 0.9375rem; /* 15px converted to rem */
+    margin: 0.625rem; /* 10px converted to rem */
+  }
+
+  #header nav ul li {
+    margin: 1.25rem; /* 20px converted to rem */
+  }
+
+  .text {
+    width: 100%;
+    padding: 1.25rem; /* 20px converted to rem */
+    padding-top: 2.5rem; /* 40px converted to rem */
+    padding-left: 2.5rem; /* 40px converted to rem */
+  }
+
+  .text h1 {
+    font-size: 2.5rem; /* 40px converted to rem */
+  }
+
+  .text p {
+    font-size: 1rem; /* 16px converted to rem */
+    line-height: 1.875rem; /* 30px converted to rem */
+  }
+
+  .icon-img img {
+    width: 3.125rem; /* 50px converted to rem */
+    height: 3.125rem; /* 50px converted to rem */
+    margin-right: 1.25rem; /* 20px converted to rem */
+  }
+
+  .btn button {
+    width: 11.25rem; /* 180px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1.25rem; /* 20px converted to rem */
+    margin-right: 1.25rem; /* 20px converted to rem */
+  }
+
+  .btn button:hover {
+    width: 10.625rem; /* 170px converted to rem */
+    height: 2.1875rem; /* 35px converted to rem */
+    font-size: 1.0625rem; /* 17px converted to rem */
+  }
+
+  .btn button:active {
+    width: 11.25rem; /* 180px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1.25rem; /* 20px converted to rem */
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .img img {
+    width: 80%;
+    height: auto;
+  }
+
+  .text-explore {
+    width: 100%;
+    height: auto;
+    padding: 1.25rem; /* 20px converted to rem */
+  }
+
+  .about-page .img2 {
+    width: 50%;
+    height: 1rem;
+  }
+
+  .about-page img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-explore > img {
+    width: 1.5625rem; /* 100px converted to rem */
+    height: 1.5625rem; /* 100px converted to rem */
+  }
+
+  .ol-type {
+    height: auto;
+  }
+
+  .achive-container .box1 img {
+    width: 3.125rem; /* 50px converted to rem */
+    height: 12.5rem; /* 200px converted to rem */
+  }
+
+  .achive-container .box1 {
+    width: 30%;
+  }
+
+  .flex-item {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  .flex-item:hover {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  #spanish {
+    font-size: 1.25rem; /* 20px converted to rem */
+  }
+
+  #flex-container>span {
+    font-size: 1.5rem; /* 24px converted to rem */
+    margin-left: 0;
+  }
+
+  .box2 {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .box2:hover {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem; /* 30px converted to rem */
+  }
+}
+@media only screen and (max-width: 23.4375rem) {
+  /* Adjustments for devices with a maximum width of 375px (23.4375rem) */
+  
+  #header {
+    height: 3.75rem; /* 60px converted to rem */
+  }
+
+  #texture-one {
+    margin-top: 0.75rem; /* 12px converted to rem */
+    margin-left: 1.5625rem; /* 25px converted to rem */
+    font-size: 1.5625rem; /* 25px converted to rem */
+  }
+
+  #header nav ul {
+    padding: 0.9375rem; /* 15px converted to rem */
+    margin: 0.625rem; /* 10px converted to rem */
+  }
+
+  #header nav ul li {
+    margin: 0.625rem; /* 10px converted to rem */
+  }
+
+  .text {
+    width: 100%;
+    padding: 1.25rem; /* 20px converted to rem */
+    padding-top: 2.5rem; /* 40px converted to rem */
+    padding-left: 1.5625rem; /* 25px converted to rem */
+  }
+
+  .text h1 {
+    font-size: 1.875rem; /* 30px converted to rem */
+  }
+
+  .text p {
+    font-size: 0.9375rem; /* 15px converted to rem */
+    line-height: 1.5625rem; /* 25px converted to rem */
+  }
+
+  .icon-img img {
+    width: 2.5rem; /* 40px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    margin-right: 1.25rem; /* 20px converted to rem */
+  }
+
+  .btn button {
+    width: 9.375rem; /* 150px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1.25rem; /* 20px converted to rem */
+    margin-right: 1.25rem; /* 20px converted to rem */
+  }
+
+  .btn button:hover {
+    width: 9.0625rem; /* 145px converted to rem */
+    height: 2.1875rem; /* 35px converted to rem */
+    font-size: 1.0625rem; /* 17px converted to rem */
+  }
+
+  .btn button:active {
+    width: 9.375rem; /* 150px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1.25rem; /* 20px converted to rem */
+  }
+
+  .img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-explore {
+    width: 100%;
+    height: auto;
+    padding: 1.25rem; /* 20px converted to rem */
+  }
+
+  .about-page .img2 {
+    width: 50%;
+    height: 1rem;
+  }
+
+  .about-page img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-explore > img {
+    width: 1.5625rem; /* 25px converted to rem */
+    height: 1.5625rem; /* 25px converted to rem */
+  }
+
+  .achive-container .box1 img {
+    width: 2.5rem; /* 40px converted to rem */
+    height: 10rem; /* 160px converted to rem */
+  }
+
+  .achive-container .box1 {
+    width: 30%;
+  }
+
+  .flex-item {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  .flex-item:hover {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  #spanish {
+    font-size: 1.25rem; /* 20px converted to rem */
+  }
+
+  #flex-container>span {
+    font-size: 1.25rem; /* 20px converted to rem */
+    margin-left: 0;
+  }
+
+  .box2 {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .box2:hover {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem; /* 30px converted to rem */
+  }
+}
+@media only screen and (max-width: 18.75rem) {
+  /* Adjustments for devices with a maximum width of 300px (18.75rem) */
+
+  #header {
+    height: 3rem; /* 60px converted to rem */
+  }
+
+  #texture-one {
+    margin-top: 0.6rem; /* 12px converted to rem */
+    margin-left: 1rem; /* 20px converted to rem */
+    font-size: 1rem; /* 20px converted to rem */
+  }
+
+  #header nav ul {
+    padding: 0.9375rem; /* 15px converted to rem */
+    margin: 0.625rem; /* 10px converted to rem */
+  }
+
+  #header nav ul li {
+    margin: 0.625rem; /* 10px converted to rem */
+  }
+
+  .text {
+    width: 100%;
+    padding: 1rem; /* 20px converted to rem */
+    padding-top: 1.25rem; /* 20px converted to rem */
+    padding-left: 1rem; /* 20px converted to rem */
+  }
+
+  .text h1 {
+    font-size: 1.25rem; /* 20px converted to rem */
+  }
+
+  .text p {
+    font-size: 0.9375rem; /* 15px converted to rem */
+    line-height: 1.5625rem; /* 25px converted to rem */
+  }
+
+  .icon-img img {
+    width: 1.5625rem; /* 25px converted to rem */
+    height: 1.5625rem; /* 25px converted to rem */
+    margin-right: 1rem; /* 20px converted to rem */
+  }
+
+  .btn button {
+    width: 7.5rem; /* 120px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1rem; /* 16px converted to rem */
+    margin-right: 1rem; /* 20px converted to rem */
+  }
+
+  .btn button:hover {
+    width: 7.1875rem; /* 115px converted to rem */
+    height: 2.1875rem; /* 35px converted to rem */
+    font-size: 0.9375rem; /* 15px converted to rem */
+  }
+
+  .btn button:active {
+    width: 7.5rem; /* 120px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1rem; /* 16px converted to rem */
+  }
+
+  .img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-explore {
+    width: 100%;
+    height: auto;
+    padding: 1rem; /* 20px converted to rem */
+  }
+
+  .about-page .img2 {
+    width: 50%;
+    height:1rem;
+  }
+
+  .about-page img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-explore > img {
+    width: 1.5625rem; /* 25px converted to rem */
+    height: 1.5625rem; /* 25px converted to rem */
+  }
+
+  .achive-container .box1 img {
+    width: 1.5625rem; /* 25px converted to rem */
+    height: 6.25rem; /* 100px converted to rem */
+  }
+
+  .achive-container .box1 {
+    width: 30%;
+  }
+
+  .flex-item {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  .flex-item:hover {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  #spanish {
+    font-size: 1rem; /* 16px converted to rem */
+  }
+
+  #flex-container>span {
+    font-size: 1rem; /* 16px converted to rem */
+    margin-left: 0;
+  }
+
+  .box2 {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .box2:hover {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem; /* 30px converted to rem */
+  }
+}
+@media only screen and (max-width: 300px) {
+  /* Adjustments for devices with a maximum width of 300px */
+
+  #header {
+    height: 3rem; /* 60px converted to rem */
+  }
+
+  #texture-one {
+    margin-top: 0.6rem; /* 12px converted to rem */
+    margin-left: 1.3333rem; /* 20px converted to rem */
+    font-size: 1.3333rem; /* 20px converted to rem */
+  }
+
+  #header nav ul {
+    padding: 0.75rem; /* 15px converted to rem */
+    margin: 0.5rem; /* 10px converted to rem */
+  }
+
+  #header nav ul li {
+    margin: 0.5rem; /* 10px converted to rem */
+  }
+
+  .text {
+    width: 100%;
+    padding: 1rem; /* 20px converted to rem */
+    padding-top: 1.25rem; /* 20px converted to rem */
+    padding-left: 1rem; /* 20px converted to rem */
+  }
+
+  .text h1 {
+    font-size: 1.3333rem; /* 20px converted to rem */
+  }
+
+  .text p {
+    font-size: 0.8rem; /* 16px converted to rem */
+    line-height: 1.4rem; /* 25px converted to rem */
+  }
+
+  .icon-img img {
+    width: 1.3333rem; /* 25px converted to rem */
+    height: 1.3333rem; /* 25px converted to rem */
+    margin-right: 1.3333rem; /* 20px converted to rem */
+  }
+
+  .btn button {
+    width: 6rem; /* 120px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1rem; /* 16px converted to rem */
+    margin-right: 1.3333rem; /* 20px converted to rem */
+  }
+
+  .btn button:hover {
+    width: 5.75rem; /* 115px converted to rem */
+    height: 2.1875rem; /* 35px converted to rem */
+    font-size: 0.8rem; /* 15px converted to rem */
+  }
+
+  .btn button:active {
+    width: 6rem; /* 120px converted to rem */
+    height: 2.5rem; /* 40px converted to rem */
+    font-size: 1rem; /* 16px converted to rem */
+  }
+
+  .img img {
+    width: 100%;
+    height:auto;
+  }
+
+  .text-explore {
+    width: 100%;
+    height: auto;
+    padding: 1rem; /* 20px converted to rem */
+  }
+
+  .about-page .img2 {
+    width: 50%;
+    height: 1rem;
+  }
+
+  .about-page img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-explore > img {
+    width: 1.3333rem; /* 25px converted to rem */
+    height: 1.3333rem; /* 25px converted to rem */
+  }
+
+  .achive-container .box1 img {
+    width: 1.3333rem; /* 25px converted to rem */
+    height: 5rem; /* 100px converted to rem */
+  }
+
+  .achive-container .box1 {
+    width: 30%;
+  }
+
+  .flex-item {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  .flex-item:hover {
+    width: 100%;
+    margin: 0.3125rem; /* 5px converted to rem */
+  }
+
+  #spanish {
+    font-size: 1rem; /* 16px converted to rem */
+  }
+
+  #flex-container>span {
+    font-size: 1rem; /* 16px converted to rem */
+    margin-left: 0;
+  }
+
+  .box2 {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+  }
+
+  .box2:hover {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem; /* 30px converted to rem */
+  }
+  .Ak .img{
+    width:50%;
+    height:auto;
+  }
+}
